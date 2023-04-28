@@ -6,7 +6,7 @@
 /*   By: bsafi <bsafi@student.42nice.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 14:10:11 by bsafi             #+#    #+#             */
-/*   Updated: 2023/04/24 17:06:29 by bsafi            ###   ########.fr       */
+/*   Updated: 2023/04/26 16:30:34 by bsafi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	*readline(int fd, char *tmp)
 			free(tmp);
 			return (0);
 		}
-		buf[j] = 0;
+		buf[j] = '\0';
 		tmp = ft_free(tmp, buf);
 	}
 	free (buf);
