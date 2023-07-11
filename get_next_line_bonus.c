@@ -111,7 +111,7 @@ char	*get_next_line(int fd)
 	}
 	return (line);
 }
-/*
+
 int	main()
 {
 	int		fd;
@@ -123,5 +123,5 @@ int	main()
 	fd2 = open ("rush02.c", O_RDONLY);
 	while (++i != 5)
 		printf("%s\n",get_next_line(fd));
-	
-}*/
+
+}
