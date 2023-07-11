@@ -112,7 +112,7 @@ char	*get_next_line(int fd)
 	return (line);
 }
 
-int	main()
+/*int	main()
 {
 	int		fd;
 	int		fd2;
@@ -124,4 +124,4 @@ int	main()
 	while (++i != 5)
 		printf("%s\n",get_next_line(fd));
 
-}
+}*/
